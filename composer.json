@@ -1,0 +1,19 @@
+{
+    "name": "bhargavjoshi/ping",
+    "description": "Simple Laravel package to ping a url from command line.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Bhargav Joshi",
+            "email": "bhargavdjoshi@gmail.com"
+        }
+    ],
+  "require": {
+    "laravel/framework": "5.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "BhargavJoshi\\Ping\\": "src"
+    }
+  }
+}
